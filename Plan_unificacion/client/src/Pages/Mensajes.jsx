@@ -1,4 +1,4 @@
-import { LEVELS, EFFORT_MIN, addMonths, fmtMonth, todayISO } from "./theme.js";
+import { LEVELS, EFFORT_MIN, addMonths, fmtMonth, todayISO } from "../theme.js";
 
 export function stats(plan) {
   const tasks = plan?.tasks || [];

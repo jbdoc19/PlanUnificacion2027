@@ -1,7 +1,7 @@
 import React from "react";
 import { Star, Zap, Heart, Timer, Crown, ChevronRight, Settings, FolderOpen } from "lucide-react";
 import { C, S, OWNERS, fmtDate, fmtShort, fmtMonth } from "../theme.js";
-import { Route, Bar, Avatar, Chip } from "../components/UI.jsx";
+import { Route, Bar, Avatar, Chip } from "../components/UI.js";
 import { stats, nextAction, quickWin, dueSoonCount, isOverdue } from "../logic.js";
 
 export default function Inicio({ plan, me, update, openTask, setTab, quickMode, setQuickMode }) {

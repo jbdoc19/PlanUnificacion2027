@@ -7,7 +7,7 @@ import Nav from "./components/Nav.jsx";
 import { Confetti, Toast } from "./components/UI.jsx";
 import Landing from "./pages/Landing.jsx";
 import Inicio from "./pages/Inicio.jsx";
-import Tareas from "./pages/Tareas.jsx";
+import Tareas from "./pages/Tareas.js";
 import TaskDetail from "./pages/TaskDetail.jsx";
 import Documentos from "./pages/Documentos.jsx";
 import Mensajes from "./pages/Mensajes.jsx";
